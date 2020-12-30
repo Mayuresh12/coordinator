@@ -13,6 +13,11 @@
 		EA248D09259C92F800B5AF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA248D07259C92F800B5AF98 /* Main.storyboard */; };
 		EA248D0B259C92F900B5AF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA248D0A259C92F900B5AF98 /* Assets.xcassets */; };
 		EA248D0E259C92F900B5AF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA248D0C259C92F900B5AF98 /* LaunchScreen.storyboard */; };
+		EA248D17259C938000B5AF98 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D16259C938000B5AF98 /* Coordinator.swift */; };
+		EA248D1A259C93FB00B5AF98 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D19259C93FB00B5AF98 /* Storyboarded.swift */; };
+		EA248D1D259C9D2900B5AF98 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D1C259C9D2900B5AF98 /* MainCoordinator.swift */; };
+		EA248D24259C9FEE00B5AF98 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D23259C9FEE00B5AF98 /* BuyViewController.swift */; };
+		EA248D27259CA02000B5AF98 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D26259CA02000B5AF98 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EA248D0A259C92F900B5AF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA248D0D259C92F900B5AF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA248D0F259C92F900B5AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA248D16259C938000B5AF98 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EA248D19259C93FB00B5AF98 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		EA248D1C259C9D2900B5AF98 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		EA248D23259C9FEE00B5AF98 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		EA248D26259CA02000B5AF98 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				EA248D0A259C92F900B5AF98 /* Assets.xcassets */,
 				EA248D0C259C92F900B5AF98 /* LaunchScreen.storyboard */,
 				EA248D0F259C92F900B5AF98 /* Info.plist */,
+				EA248D16259C938000B5AF98 /* Coordinator.swift */,
+				EA248D19259C93FB00B5AF98 /* Storyboarded.swift */,
+				EA248D1C259C9D2900B5AF98 /* MainCoordinator.swift */,
+				EA248D23259C9FEE00B5AF98 /* BuyViewController.swift */,
+				EA248D26259CA02000B5AF98 /* CreateAccountViewController.swift */,
 			);
 			path = coordinator;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA248D17259C938000B5AF98 /* Coordinator.swift in Sources */,
+				EA248D1D259C9D2900B5AF98 /* MainCoordinator.swift in Sources */,
 				EA248D06259C92F800B5AF98 /* ViewController.swift in Sources */,
+				EA248D1A259C93FB00B5AF98 /* Storyboarded.swift in Sources */,
+				EA248D27259CA02000B5AF98 /* CreateAccountViewController.swift in Sources */,
 				EA248D02259C92F800B5AF98 /* AppDelegate.swift in Sources */,
+				EA248D24259C9FEE00B5AF98 /* BuyViewController.swift in Sources */,
 				EA248D04259C92F800B5AF98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
